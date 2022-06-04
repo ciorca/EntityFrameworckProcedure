@@ -46,7 +46,7 @@
           <Property Name="Salary" Type="Int32" />
         </EntityType>
         <EntityContainer Name="EmployeeDBContext" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Employees" EntityType="Self.Employee" />
+          <EntitySet Name="Employees" EntityType="EmployeeModel.Employee" />
           <FunctionImport Name="DeleteEmployee">
             <Parameter Name="ID" Mode="In" Type="Int32" />
           </FunctionImport>

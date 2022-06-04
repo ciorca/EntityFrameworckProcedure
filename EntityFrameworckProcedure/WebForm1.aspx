@@ -30,7 +30,7 @@
             <SortedDescendingHeaderStyle BackColor="#820000" />
         </asp:GridView>
         <br />
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" CellPadding="4" DataKeyNames="ID" DataSourceID="EntityDataSource1" ForeColor="#333333" GridLines="None" Height="50px" Width="125px" DefaultMode="Insert">
+        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" CellPadding="4" DataKeyNames="ID" DataSourceID="EntityDataSource1" ForeColor="#333333" GridLines="None" Height="50px" Width="125px" DefaultMode="Insert" OnItemInserted="DetailsView1_ItemInserted">
             <AlternatingRowStyle BackColor="White" />
             <CommandRowStyle BackColor="#FFFFC0" Font-Bold="True" />
             <FieldHeaderStyle BackColor="#FFFF99" Font-Bold="True" />
